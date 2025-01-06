@@ -34,4 +34,11 @@ spring:
           max-active: 20
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
+# RocketMq
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: producer-group
+  consumer:
+    group: consumer-group
 
